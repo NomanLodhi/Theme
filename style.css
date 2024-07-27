@@ -113,6 +113,10 @@ transition: all 0.1s linear !important;
         height: 1600px !important;
          overflow: hidden;
     }
+    .fs-cl-rev{
+        font-size: 15px;
+        width: 100%;
+    }
 }
 @media (min-width:990px){
     .nav-pos{
