@@ -1,0 +1,135 @@
+.bg-sec-1{
+background-image: url('./media/office-team.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 700px;
+background-position:bottom !important;
+}
+.divider{
+    background-color: #0d6efd;
+    height: 3px;
+    border-radius: 30px;
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+.icons-card{
+    width: 60px;
+    height: 60px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.nav-pos a{
+color: white !important;
+}
+.header{
+    z-index: 10;
+    transition: 0.2s linear all;
+    background-color: white;
+}
+.bg-nav-scroll{
+    background-color: white !important;
+    transition: all 0.2s linear;
+    box-shadow: 3px 3px 50px black;
+}
+.nav-pos a{
+    color: black !important;
+}
+.bg-nav-scroll .nav-pos a{
+    color: black !important;
+}
+.overlay-sec-1{
+    background-color: rgba(0, 0, 0, 0.486);
+}
+@font-face {
+    font-family: Neue;
+    src: url('./NeueHaasDisplayRoman.ttf');
+}
+    @font-face {
+    font-family:Blackpool ;
+    src: url('./Blackpool\ demo.ttf');
+}
+.neue{
+    font-family: Neue;
+}
+.blackpool{
+    font-family:Blackpool ;
+}
+.nav-tabs .navlink{
+transition: all 0.1s linear !important;
+}
+.nav-tabs .navlink:hover{
+    border: 1px solid #0d6efd !important;
+    background-color: #0d6efd !important;
+    color: white !important;
+}
+
+.up-on-hov{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+    
+.hov-img:hover .up-on-hov{
+    display: flex !important;
+}
+.project-tab .active{
+    border: 1px solid #0d6efd !important;
+    color: white !important;
+    background-color: #0d6efd !important;
+}
+.owl-nav{
+    display: none !important;
+}
+.owl-dots{
+    display: none !important;
+}
+.card-team{
+    width: 95%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+.go-up{
+    background-color: #0d6dfd7a;
+    transition: bottom 0.3s linear;
+}
+.bg-review{
+    background-image: url('./media/streets.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+.card-team:hover .go-up{
+    bottom: 0;
+}
+.scroll-top{
+    display: none;
+}
+@media (max-width:989px){
+    .h-tab{
+        height: 1600px !important;
+         overflow: hidden;
+    }
+}
+@media (min-width:990px){
+    .nav-pos{
+        position: absolute;
+        right: 0%;
+        }
+        .h-tab{
+            height: 700px !important;
+             overflow: hidden;
+        }
+        .header{
+            background-color: transparent;
+        }
+        .nav-pos a{
+            color: white !important;
+        }
+.p-desc{
+    width: 70%;
+}
+    }
