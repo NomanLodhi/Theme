@@ -38,6 +38,10 @@ color: white !important;
 }
 .bg-nav-scroll .nav-pos a{
     color: black !important;
+    transition: color 0.2s linear;
+}
+.bg-nav-scroll .nav-pos a:hover{
+    color: #0d6efd !important;
 }
 .overlay-sec-1{
     background-color: rgba(0, 0, 0, 0.486);
@@ -95,19 +99,31 @@ transition: all 0.1s linear !important;
 }
 .go-up{
     background-color: #0d6dfd7a;
-    transition: bottom 0.3s linear;
+    transition: all 0.3s linear;
+    transform: translateY(200px);
 }
+.card-team:hover .go-up{
+    transform: translateY(0px);
+}
+    
 .bg-review{
     background-image: url('./media/streets.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 } 
-.card-team:hover .go-up{
-    bottom: 0;
-}
+
 .scroll-top{
     display: none;
+    transition: all 0.5s linear;
+    transform: translateY(100px);
 }
+.d-scroll-btn{
+    transform: translateY(0px);
+    transition: all 0.5s linear;
+    display:block;
+    
+}
+
 @media (max-width:989px){
     .h-tab{
         height: 1600px !important;
